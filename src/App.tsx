@@ -1,6 +1,5 @@
 import React from 'react';
 import { Redirect, Route, Switch, withRouter } from 'react-router-dom';
-import { Home } from './pages';
 import { Routers } from './routers';
 
 function App() {

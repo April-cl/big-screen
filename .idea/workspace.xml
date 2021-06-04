@@ -5,13 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9606c1f3-d13d-4e7d-8469-be950d673e83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/about/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routers/base.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/rootBackground.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routers/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routers/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/react-app-env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/react-app-env.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +47,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pages" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/images" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -55,7 +58,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\2020版前端体系课\big-screen\src\images" />
       <recent name="F:\2020版前端体系课\big-screen\src\pages" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\2020版前端体系课\big-screen\src\images" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -70,7 +77,7 @@
       <workItem from="1622695320514" duration="3340000" />
       <workItem from="1622781332184" duration="587000" />
       <workItem from="1622788357820" duration="1073000" />
-      <workItem from="1622789450798" duration="7881000" />
+      <workItem from="1622789450798" duration="16126000" />
     </task>
     <servers />
   </component>
