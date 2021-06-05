@@ -1,7 +1,11 @@
 @import "../../shared/helper";
 
 .home {
-  header {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  > header {
     line-height: px(63);
     text-align: center;
     font-size: px(30);
@@ -10,5 +14,30 @@
     border-bottom: 4px solid transparent;
     border-image: radial-gradient(at 50% 100%, rgb(40, 175, 255), rgb(0, 0, 0));
     border-image-slice: 100;
+  }
+  > main {
+    flex: 1;
+    display: grid;
+    grid-template:
+      "box1 box2 box3" 637fr
+      "box4 box4 box4" 236fr
+      /426fr 648fr 452fr ;
+    grid-gap: px(12);
+    > .section1 {
+      grid-area: box1;
+      background: pink;
+    }
+    > .section2 {
+      grid-area: box2;
+      background: lightgray;
+    }
+    > .section3 {
+      grid-area: box3;
+      background: lightblue;
+    }
+    > .section4 {
+      grid-area: box4;
+      background: lightcyan;
+    }
   }
 }
