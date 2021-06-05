@@ -3,10 +3,9 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import {BrowserRouter, Route, Switch} from 'react-router-dom'
 import './shared/style.scss'
-import background from './images/rootBackground.jpg'
 
 ReactDOM.render(
-  <div style={{backgroundImage: `url(${background})`, backgroundSize: 'cover', height: '100%'}}>
+  <div style={{background: 'radial-gradient(ellipse closest-side, rgb(11, 39, 69), rgb(8, 22, 49))', height: '100%'}}>
     <BrowserRouter>
       <Suspense fallback={<div></div>}>
         <Switch>
