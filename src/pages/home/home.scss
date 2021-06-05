@@ -1,0 +1,14 @@
+@import "../../shared/helper";
+
+.home {
+  header {
+    line-height: px(63);
+    text-align: center;
+    font-size: px(30);
+    color: rgb(40, 175, 255);
+    background: radial-gradient(at 50% 100%, rgba(24, 63, 118, 0.5) 60%, rgba(7, 21, 48, 0.5));
+    border-bottom: 4px solid transparent;
+    border-image: radial-gradient(at 50% 100%, rgb(40, 175, 255), rgb(0, 0, 0));
+    border-image-slice: 100;
+  }
+}
