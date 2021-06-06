@@ -20,12 +20,12 @@
     display: grid;
     grid-template:
       "box1 box2 box3" 637fr
-      "box4 box4 box4" 236fr
+      "box4 box5 box6" 236fr
       /426fr 648fr 452fr ;
     grid-gap: px(12);
-    .componentName {
+    .sectionName {
       position: relative;
-      color: rgb(155, 179, 212);
+      color: $font-title-color;
       padding: 0 px(36);
       margin-left: px(8);
       span {
@@ -63,6 +63,13 @@
     > .section4 {
       grid-area: box4;
       background: lightcyan;
+    }
+    > .section5 {
+      grid-area: box5;
+    }
+    > .section6 {
+      grid-area: box6;
+      background: lightgray;
     }
   }
 }
