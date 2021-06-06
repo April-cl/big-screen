@@ -25,7 +25,7 @@
       /426fr 648fr 452fr ;
     grid-gap: px(12);
     .sectionName {
-      margin: px(6) 0;
+      margin: px(10) 0;
       position: relative;
       color: $font-title-color;
       span {
@@ -51,7 +51,7 @@
       }
     }
     .componentName {
-      margin: px(6) 0;
+      margin: px(10) 0;
       color: $font-title-color;
       &::before{
         content: '';
@@ -119,30 +119,31 @@
     > .section1 {
       grid-area: box1;
       .eventNumber {
+        display: flex;
+        justify-content: space-between;
         > span {
           color: rgb(30, 143, 253);
-          &:not(:first-child) {
-            margin-left: px(12);
-          }
+          display: inline-block;
+          height: px(52);
           &:not(:last-child) {
             font-size: px(36);
-            display: inline-block;
             width: px(40);
-            height: px(52);
             text-align: center;
             line-height: px(52);
             font-weight: bold;
           }
           &:last-child {
-            vertical-align: bottom;
             font-size: px(30);
+            line-height: px(74);
           }
         }
       }
       .eventStatistics {
-        text-align: center;
         margin: px(10) 0;
         padding: px(10) 0;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
         .eventStatisticsNumber {
           color: rgb(254, 251, 252);
           font-size: px(20);
