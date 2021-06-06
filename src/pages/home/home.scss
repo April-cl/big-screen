@@ -10,13 +10,14 @@
     text-align: center;
     font-size: px(30);
     color: rgb(40, 175, 255);
-    background: radial-gradient(at 50% 100%, rgba(24, 63, 118, 0.5) 60%, rgba(7, 21, 48, 0.5));
+    background: radial-gradient(at 50% 100%, rgba(24, 63, 118, 0.5), rgba(8, 22, 49, 1));
     border-bottom: 4px solid transparent;
     border-image: radial-gradient(at 50% 100%, rgb(40, 175, 255), rgb(0, 0, 0));
     border-image-slice: 100;
   }
   > main {
     flex: 1;
+    padding: 0 px(40);
     display: grid;
     grid-template:
       "box1 box2 box3" 637fr
@@ -24,13 +25,13 @@
       /426fr 648fr 452fr ;
     grid-gap: px(12);
     .sectionName {
+      margin: px(6) 0;
       position: relative;
       color: $font-title-color;
-      padding: 0 px(36);
-      margin-left: px(8);
       span {
+        font-weight: bold;
         font-size: px(24);
-        border-bottom: px(3) dashed rgb(29, 132, 212);
+        border-bottom: px(3) dashed $border-color;
       }
       &::before, &::after {
         position: absolute;
@@ -40,17 +41,72 @@
         height: 50%;
         content: ' ';
         transform: skew(30deg);
-        border: 1px solid rgb(28, 149, 234);
+        border: 1px solid $border-color;
       }
       &::before {
-        left: 0;
+        left: -(px(20));
       }
       &::after {
-        left: px(16);
+        left: -(px(36));
+      }
+    }
+    .componentName {
+      margin: px(6) 0;
+      color: $font-title-color;
+      &::before{
+        content: '';
+        display: inline-block;
+        width: px(4);
+        background: $border-color;
+        height: .8em;
+        margin-right: px(4);
+      }
+    }
+    .bordered {
+      border: 1px solid $border-color;
+      position: relative;
+      box-shadow: 0 0 2px 0 rgb(13, 79, 148), inset 0 0 2px 0 rgb(15, 54, 105);
+      &::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        box-shadow:
+                17px 0 0 -16px rgb(13, 79, 148),
+                -17px 0 0 -16px rgb(13, 79, 148),
+                0 17px 0 -16px rgb(13, 79, 148),
+                0 -17px 0 -16px rgb(13, 79, 148),
+                9px 0 0 -8px rgb(15, 54, 105),
+                -9px 0 0 -8px rgb(15, 54, 105),
+                0 9px 0 -8px rgb(15, 54, 105),
+                0 -9px 0 -8px rgb(15, 54, 105);
       }
     }
     > .section1 {
       grid-area: box1;
+      .eventNumber {
+        > span {
+          color: rgb(30, 143, 253);
+          &:not(:first-child) {
+            margin-left: px(12);
+          }
+          &:not(:last-child) {
+            font-size: px(36);
+            display: inline-block;
+            width: px(40);
+            height: px(52);
+            text-align: center;
+            line-height: px(52);
+            font-weight: bold;
+          }
+          &:last-child {
+            vertical-align: bottom;
+            font-size: px(30);
+          }
+        }
+      }
     }
     > .section2 {
       grid-area: box2;

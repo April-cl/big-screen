@@ -1,15 +1,20 @@
 @import "helper";
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
 body {
   margin: 0;
   font-family: $font-hei;
+  background: radial-gradient(ellipse closest-side, rgb(11, 39, 69), rgb(8, 22, 49))
 }
-
 #root {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
 }
-
 .App {
   flex: 1;
 }
