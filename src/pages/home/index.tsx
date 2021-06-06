@@ -10,6 +10,7 @@ export default function Home () {
       </header>
       <main>
         <section className="section1">
+          <h2 className='componentName'><span>实时动态</span></h2>
           <RealTimeDynamics />
         </section>
         <section className="section2">section2</section>
