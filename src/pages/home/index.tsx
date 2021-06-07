@@ -1,6 +1,7 @@
 import React from 'react'
 import './home.scss'
 import { RealTimeDynamics } from '../../components/real-timeDynamics';
+import { HighFrequencyMatters } from '../../components/highFrequencyMatters';
 
 export default function Home () {
   return (
@@ -12,6 +13,8 @@ export default function Home () {
         <section className="section1">
           <h2 className='sectionName'><span>实时动态</span></h2>
           <RealTimeDynamics />
+          <h2 className='sectionName'><span>高频事项</span></h2>
+          <HighFrequencyMatters />
         </section>
         <section className="section2">section2</section>
         <section className="section3">section3</section>
