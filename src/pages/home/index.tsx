@@ -2,6 +2,7 @@ import React from 'react'
 import './home.scss'
 import { RealTimeDynamics } from '../../components/real-timeDynamics';
 import { HighFrequencyMatters } from '../../components/highFrequencyMatters';
+import { WordCloud } from '../../components/wordCloud';
 
 export default function Home () {
   return (
@@ -15,6 +16,7 @@ export default function Home () {
           <RealTimeDynamics />
           <h2 className='sectionName'><span>高频事项</span></h2>
           <HighFrequencyMatters />
+          <WordCloud />
         </section>
         <section className="section2">section2</section>
         <section className="section3">section3</section>
