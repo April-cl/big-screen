@@ -4,7 +4,7 @@ import * as echarts from 'echarts'
 export const HighFrequencyMatters = () => {
   var divRef = useRef(null);
   useEffect(() => {
-    console.log(divRef.current);
+    // @ts-ignore
     const myChart = echarts.init(divRef.current);
     // myChart.setOption({
     //   title: {

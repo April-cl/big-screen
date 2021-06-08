@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9606c1f3-d13d-4e7d-8469-be950d673e83" name="Default Changelist" comment="匹配屏幕，背景图待更换">
-      <change afterPath="$PROJECT_DIR$/src/components/highFrequencyMatters.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/wordCloud.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/home.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/highFrequencyMatters.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/highFrequencyMatters.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +77,9 @@
       <workItem from="1622789450798" duration="16574000" />
       <workItem from="1622876072312" duration="14885000" />
       <workItem from="1622947463946" duration="25491000" />
-      <workItem from="1623031770851" duration="6769000" />
+      <workItem from="1623031770851" duration="8556000" />
+      <workItem from="1623086081899" duration="591000" />
+      <workItem from="1623136184695" duration="5568000" />
     </task>
     <task id="LOCAL-00001" summary="匹配屏幕，背景图待更换">
       <created>1622831099675</created>

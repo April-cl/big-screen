@@ -4259,13 +4259,13 @@ echarts-wordcloud@^2.0.0:
   resolved "https://registry.npm.taobao.org/echarts-wordcloud/download/echarts-wordcloud-2.0.0.tgz?cache=0&sync_timestamp=1610777755404&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fecharts-wordcloud%2Fdownload%2Fecharts-wordcloud-2.0.0.tgz#52ef817895801ffe9e99dd1bacab7686b2dec04a"
   integrity sha1-Uu+BeJWAH/6emd0brKt2hrLewEo=
 
-echarts@^5.1.1:
-  version "5.1.1"
-  resolved "https://registry.nlark.com/echarts/download/echarts-5.1.1.tgz#b186f162f017c555cfd67b12ede6762bdc3ddfda"
-  integrity sha1-sYbxYvAXxVXP1nsS7eZ2K9w939o=
+echarts@5.0.2:
+  version "5.0.2"
+  resolved "https://registry.nlark.com/echarts/download/echarts-5.0.2.tgz#1726d17a57cf05d62cd0567b4325e1201a56baf6"
+  integrity sha1-FybRelfPBdYs0FZ7QyXhIBpWuvY=
   dependencies:
     tslib "2.0.3"
-    zrender "5.1.0"
+    zrender "5.0.4"
 
 ee-first@1.1.1:
   version "1.1.1"
@@ -11524,9 +11524,9 @@ yocto-queue@^0.1.0:
   resolved "https://registry.nlark.com/yocto-queue/download/yocto-queue-0.1.0.tgz#0294eb3dee05028d31ee1a5fa2c556a6aaf10a1b"
   integrity sha1-ApTrPe4FAo0x7hpfosVWpqrxChs=
 
-zrender@5.1.0:
-  version "5.1.0"
-  resolved "https://registry.nlark.com/zrender/download/zrender-5.1.0.tgz#b6a84c3aa7ccc6642ee0519901ca4c0835c4d85e"
-  integrity sha1-tqhMOqfMxmQu4FGZAcpMCDXE2F4=
+zrender@5.0.4:
+  version "5.0.4"
+  resolved "https://registry.nlark.com/zrender/download/zrender-5.0.4.tgz#89c355af908b9f64a301b38f751b7951f2c8a95a"
+  integrity sha1-icNVr5CLn2SjAbOPdRt5UfLIqVo=
   dependencies:
     tslib "2.0.3"
