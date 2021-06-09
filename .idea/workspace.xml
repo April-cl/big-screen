@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9606c1f3-d13d-4e7d-8469-be950d673e83" name="Default Changelist" comment="解决echarts.init的报错">
+    <list default="true" id="9606c1f3-d13d-4e7d-8469-be950d673e83" name="Default Changelist" comment="代码重构 px函数">
       <change afterPath="$PROJECT_DIR$/src/components/mapChart.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/px.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/base-echarts-options.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/create-echarts-options.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/highFrequencyMatters.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/highFrequencyMatters.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/wordCloud.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/wordCloud.tsx" afterDir="false" />
@@ -81,7 +82,7 @@
       <workItem from="1623031770851" duration="8556000" />
       <workItem from="1623086081899" duration="591000" />
       <workItem from="1623136184695" duration="20104000" />
-      <workItem from="1623218067831" duration="5634000" />
+      <workItem from="1623218067831" duration="6567000" />
     </task>
     <task id="LOCAL-00001" summary="匹配屏幕，背景图待更换">
       <created>1622831099675</created>
@@ -97,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623143891406</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="代码重构 px函数">
+      <created>1623227042073</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1623227042073</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,7 +126,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="匹配屏幕，背景图待更换" />
     <MESSAGE value="解决echarts.init的报错" />
-    <option name="LAST_COMMIT_MESSAGE" value="解决echarts.init的报错" />
+    <MESSAGE value="代码重构 px函数" />
+    <option name="LAST_COMMIT_MESSAGE" value="代码重构 px函数" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

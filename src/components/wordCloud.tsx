@@ -2,13 +2,14 @@ import React, { useEffect, useRef } from 'react';
 import * as echarts from 'echarts';
 import 'echarts-wordcloud'
 import { px } from '../shared/px';
+import { createEchartsOptions } from '../shared/create-echarts-options';
 
 export const WordCloud = () => {
   const divRef = useRef(null);
   useEffect(() => {
     // @ts-ignore
     const myChart = echarts.init(divRef.current);
-    myChart.setOption({
+    myChart.setOption(createEchartsOptions({
       series: [{
         type: 'wordCloud',
         width: '100%',
@@ -49,14 +50,8 @@ export const WordCloud = () => {
           {name: '公共管理', value: '65'},
           {name: '五水共治', value: '62'},
         ]
-      }],
-      grid: {
-        x: px(30),
-        y: px(24),
-        x2: px(0),
-        y2: px(34)
-      }
-    });
+      }]
+    }));
   }, []);
   return (
     <div ref={divRef} className="wordCloud"></div>

@@ -1,13 +1,14 @@
 import React, { useEffect, useRef } from 'react';
 import * as echarts from 'echarts'
 import { px } from '../shared/px';
+import { createEchartsOptions } from '../shared/create-echarts-options';
 
 export const HighFrequencyMatters = () => {
   var divRef = useRef(null);
   useEffect(() => {
     // @ts-ignore
     const myChart = echarts.init(divRef.current);
-    myChart.setOption({
+    myChart.setOption(createEchartsOptions({
       xAxis: {
         type: 'time',
         axisLabel: {
@@ -70,14 +71,8 @@ export const HighFrequencyMatters = () => {
           color: "rgb(47, 194, 182)"
         },
         symbol: "none"
-      }],
-      grid: {
-        x: px(30),
-        y: px(24),
-        x2: px(0),
-        y2: px(34)
-      }
-    });
+      }]
+    }));
   }, []);
   return (
     <div ref={divRef} className={'highFrequencyMatters'}></div>
