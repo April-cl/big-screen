@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9606c1f3-d13d-4e7d-8469-be950d673e83" name="Default Changelist" comment="代码重构 echarts配置项">
-      <change afterPath="$PROJECT_DIR$/src/components/mapChart.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/geo/guangdong.json" afterDir="false" />
+    <list default="true" id="9606c1f3-d13d-4e7d-8469-be950d673e83" name="Default Changelist" comment="完成地图模块">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/highFrequencyMatters.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/highFrequencyMatters.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/wordCloud.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/wordCloud.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/mapChart.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/mapChart.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/home/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/home.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +79,7 @@
       <workItem from="1623031770851" duration="8556000" />
       <workItem from="1623086081899" duration="591000" />
       <workItem from="1623136184695" duration="20104000" />
-      <workItem from="1623218067831" duration="21782000" />
+      <workItem from="1623218067831" duration="22122000" />
     </task>
     <task id="LOCAL-00001" summary="匹配屏幕，背景图待更换">
       <created>1622831099675</created>
@@ -114,7 +109,21 @@
       <option name="project" value="LOCAL" />
       <updated>1623227992512</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="修改tsconfig.json，去除// @ts-ignore">
+      <created>1623260378947</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1623260378947</updated>
+    </task>
+    <task id="LOCAL-00006" summary="完成地图模块">
+      <created>1623260405596</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1623260405596</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,7 +146,9 @@
     <MESSAGE value="解决echarts.init的报错" />
     <MESSAGE value="代码重构 px函数" />
     <MESSAGE value="代码重构 echarts配置项" />
-    <option name="LAST_COMMIT_MESSAGE" value="代码重构 echarts配置项" />
+    <MESSAGE value="修改tsconfig.json，去除// @ts-ignore" />
+    <MESSAGE value="完成地图模块" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成地图模块" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

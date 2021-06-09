@@ -64,7 +64,7 @@ export const MapChart = () => {
         textStyle: {
           color: 'white'
         },
-        text: ['少—多', '事件数量/万件'],
+        text: ['少 — 多', '事件数量/万件'],
         realtime: false,
         calculable: true,
         inRange: {
