@@ -1,8 +1,8 @@
 import React, { useEffect, useRef } from 'react';
 import * as echarts from 'echarts';
-import 'echarts-wordcloud';
+import 'echarts-wordcloud'
+import { px } from '../shared/px';
 
-const px = (n: number) => n / 1552 * (window as any).pageWidth;
 export const WordCloud = () => {
   const divRef = useRef(null);
   useEffect(() => {
