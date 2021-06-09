@@ -6,7 +6,6 @@ import { createEchartsOptions } from '../shared/create-echarts-options';
 export const HighFrequencyMatters = () => {
   var divRef = useRef(null);
   useEffect(() => {
-    // @ts-ignore
     const myChart = echarts.init(divRef.current);
     myChart.setOption(createEchartsOptions({
       xAxis: {

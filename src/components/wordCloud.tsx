@@ -7,7 +7,6 @@ import { createEchartsOptions } from '../shared/create-echarts-options';
 export const WordCloud = () => {
   const divRef = useRef(null);
   useEffect(() => {
-    // @ts-ignore
     const myChart = echarts.init(divRef.current);
     myChart.setOption(createEchartsOptions({
       series: [{
