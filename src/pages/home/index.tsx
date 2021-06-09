@@ -3,6 +3,7 @@ import './home.scss'
 import { RealTimeDynamics } from '../../components/real-timeDynamics';
 import { HighFrequencyMatters } from '../../components/highFrequencyMatters';
 import { WordCloud } from '../../components/wordCloud';
+import { MapChart } from '../../components/mapChart';
 
 export default function Home () {
   return (
@@ -18,7 +19,9 @@ export default function Home () {
           <HighFrequencyMatters />
           <WordCloud />
         </section>
-        <section className="section2">section2</section>
+        <section className="section2">
+          <MapChart />
+        </section>
         <section className="section3">section3</section>
         <section className="section4">section4</section>
         <section className="section5">section5</section>

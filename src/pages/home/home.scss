@@ -163,7 +163,9 @@
     }
     > .section2 {
       grid-area: box2;
-      background: lightgray;
+      .mapChart {
+        height: px(648);
+      }
     }
     > .section3 {
       grid-area: box3;
