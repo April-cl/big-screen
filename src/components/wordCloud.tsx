@@ -37,15 +37,17 @@ export const WordCloud = () => {
           }
         },
         data: [
-          {name: '龙头镇', value: '111'},
-          {name: '大埔镇', value: '222'},
-          {name: '太平镇', value: '458'},
-          {name: '沙埔镇', value: '445'},
-          {name: '东泉镇', value: '456'},
-          {name: '凤山镇', value: '647'},
-          {name: '六塘镇', value: '189'},
-          {name: '冲脉镇', value: '864'},
-          {name: '寨隆镇', value: '652'},
+          {name: '消防安全', value: '11'},
+          {name: '价格监督', value: '22'},
+          {name: '市容环境', value: '58'},
+          {name: '民政', value: '45'},
+          {name: '食品安全', value: '46'},
+          {name: '民生服务', value: '67'},
+          {name: '交通安全', value: '89'},
+          {name: '市政公用', value: '84'},
+          {name: '矛盾纠纷', value: '52'},
+          {name: '公共管理', value: '65'},
+          {name: '五水共治', value: '62'},
         ]
       }],
       grid: {
