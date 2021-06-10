@@ -12,7 +12,7 @@ export const WordCloud = () => {
       series: [{
         type: 'wordCloud',
         width: '100%',
-        height: '100%',
+        height: '80%',
         sizeRange: [px(14), px(36)],
         rotationRange: [0, 0],
         rotationStep: 45,
