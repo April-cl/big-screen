@@ -4,6 +4,7 @@ import { RealTimeDynamics } from '../../components/real-timeDynamics';
 import { HighFrequencyMatters } from '../../components/highFrequencyMatters';
 import { WordCloud } from '../../components/wordCloud';
 import { MapChart } from '../../components/mapChart';
+import { ComprehensiveGovernance } from '../../components/comprehensiveGovernance';
 
 export default function Home () {
   return (
@@ -22,7 +23,10 @@ export default function Home () {
         <section className="section2">
           <MapChart />
         </section>
-        <section className="section3">section3</section>
+        <section className="section3">
+          <h2 className='sectionName'><span>综治工作</span></h2>
+          <ComprehensiveGovernance  />
+        </section>
         <section className="section4">section4</section>
         <section className="section5">section5</section>
         <section className="section6">section6</section>

@@ -17,7 +17,7 @@
   }
   > main {
     flex: 1;
-    padding: 0 px(40);
+    padding-left: px(40);
     display: grid;
     grid-template:
       "box1 box2 box3" 637fr
@@ -86,8 +86,6 @@
     }
     .circleBorder {
       position: relative;
-      width: px(92);
-      height: px(92);
       border: 2px solid $border-color;
       border-radius: 50%;
       display: flex;
@@ -99,8 +97,6 @@
       &::before, &::after {
         content: '';
         border-radius: 50%;
-        width: px(106);
-        height: px(106);
         position: absolute;
         animation: rotateCircle 5s ease-in-out infinite alternate;
       }
@@ -144,6 +140,14 @@
         text-align: center;
         display: flex;
         justify-content: space-between;
+        .circleBorder {
+          width: px(92);
+          height: px(92);
+          &::before, &::after {
+            width: px(106);
+            height: px(106);
+          }
+        }
         .eventStatisticsNumber {
           color: rgb(254, 251, 252);
           font-size: px(20);
@@ -169,7 +173,71 @@
     }
     > .section3 {
       grid-area: box3;
-      background: lightblue;
+      .comprehensiveGovernance {
+        display: flex;
+        flex-wrap: wrap;
+        > div {
+          flex-basis: 50%;
+          display: flex;
+        }
+        .circleBorder {
+          margin: px(16) px(10);
+          min-width: px(42);
+          height: px(42);
+          &::before, &::after {
+            width: px(52);
+            height: px(52);
+            position: absolute;
+            border: 2px dotted $border-color;
+            animation: rotateCircle 15s linear infinite;
+          }
+          .icon {
+            color: rgb(26, 141, 228);
+          }
+        }
+        .comprehensiveGovernanceItem {
+          display: flex;
+          flex-wrap: wrap;
+          padding-left: px(12);
+          .itemValue, .itemProportion, .itemTitle {
+            height: px(36);
+            line-height: px(36);
+          }
+          .itemValue, .itemProportion {
+            font-size: px(20);
+            font-weight: bold;
+            color: rgb(30, 143, 217);
+            padding-top: px(12);
+          }
+          .itemValue {
+            flex: 2 1 0;
+          }
+          .itemProportion {
+            flex: 3 1 0;
+            text-align: right;
+            padding-right: px(24);
+            position: relative;
+            .icon {
+              position: absolute;
+              height: 100%;
+              right: 0;
+              top: -px(12);
+              margin: auto;
+              &-up {
+                color: rgb(229, 59, 43);
+              }
+              &-down {
+                color: rgb(132, 151, 175);
+              }
+            }
+          }
+          .itemTitle {
+            flex-basis: 100%;
+            color: rgb(88, 107, 134);
+            padding-bottom: px(12);
+          }
+        }
+      }
     }
     > .section4 {
       grid-area: box4;

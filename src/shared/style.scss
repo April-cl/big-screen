@@ -18,3 +18,10 @@ body {
 .App {
   flex: 1;
 }
+.icon {
+  width: px(24); height: px(24);
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+  color: rgb(26, 141, 228);
+}
