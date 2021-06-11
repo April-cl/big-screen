@@ -6,7 +6,7 @@
   display: flex;
   flex-direction: column;
   > header {
-    line-height: px(63);
+    line-height: px(64);
     text-align: center;
     font-size: px(30);
     color: rgb(40, 175, 255);
@@ -21,7 +21,7 @@
     display: grid;
     grid-template:
       "box1 box2 box3" 637fr
-      "box4 box4 box3" 236fr
+      "box4 box4 box3" 185fr
       /426fr 648fr 452fr ;
     grid-gap: px(12);
     .sectionName {
