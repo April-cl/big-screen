@@ -7,6 +7,7 @@ import { MapChart } from '../../components/mapChart';
 import { ComprehensiveGovernance } from '../../components/comprehensiveGovernance';
 import { LawEnforcement } from '../../components/lawEnforcement';
 import { MarketSupervision } from '../../components/marketSupervision';
+import { ConvenienceServices } from '../../components/convenienceServices';
 
 export default function Home () {
   return (
@@ -32,6 +33,8 @@ export default function Home () {
           <LawEnforcement  />
           <h2 className='sectionName'><span>市场监管</span></h2>
           <MarketSupervision  />
+          <h2 className='sectionName'><span>市场监管</span></h2>
+          <ConvenienceServices  />
         </section>
         <section className="section4">section4</section>
       </main>

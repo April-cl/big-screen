@@ -175,6 +175,7 @@
     > .section3 {
       grid-area: box3;
       .comprehensiveGovernance {
+        height: px(130);
         display: flex;
         flex-wrap: wrap;
         > div {
@@ -182,7 +183,7 @@
           display: flex;
         }
         .circleBorder {
-          margin: px(16) px(10);
+          margin: px(8) px(10);
           min-width: px(42);
           height: px(42);
           &::before, &::after {
@@ -201,14 +202,14 @@
           flex-wrap: wrap;
           padding-left: px(12);
           .itemValue, .itemProportion, .itemTitle {
-            height: px(36);
-            line-height: px(36);
+            height: px(32);
+            line-height: px(32);
           }
           .itemValue, .itemProportion {
             font-size: px(20);
             font-weight: bold;
             color: rgb(30, 143, 217);
-            padding-top: px(12);
+            padding-top: px(6);
           }
           .itemValue {
             flex: 2 1 0;
@@ -240,6 +241,7 @@
         }
       }
       .lawEnforcement {
+        height: px(180);
         .lawEnforcementContain {
           width: 100%;
           display: flex;
@@ -271,14 +273,17 @@
         }
         .circleBorder {
           background: radial-gradient(rgb(6, 20, 46), rgb(11, 63, 91));
-          padding: px(16) px(10);
+          padding: px(10);
           &:before, &:after {
             display: none;
           }
         }
       }
       .marketSupervision {
-        height: px(180);
+        height: px(170);
+      }
+      .convenienceServices {
+        height: px(140);
       }
     }
     > .section4 {

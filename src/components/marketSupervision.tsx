@@ -50,12 +50,17 @@ export const MarketSupervision = () => {
           }
         }
       },
-      yAxis: {},
+      yAxis: {
+        splitLine: {
+          lineStyle: {
+            color: ['rgba(32, 48, 73, 1)']
+          }
+        }},
       grid: {
         x: px(36),
         y: px(30),
         x2: 0,
-        y2: px(48)
+        y2: px(42)
       },
       series: [
         {type: 'bar'},
