@@ -20,10 +20,10 @@
     padding-left: px(40);
     display: grid;
     grid-template:
-      "box1 box2 box3" 637fr
+      "box1 box2 box3" 606fr
       "box4 box4 box3" 185fr
       /426fr 648fr 452fr ;
-    grid-gap: px(12);
+    grid-column-gap: px(12);
     .sectionName {
       margin: px(10) 0;
       position: relative;

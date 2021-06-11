@@ -7,9 +7,6 @@
     <list default="true" id="9606c1f3-d13d-4e7d-8469-be950d673e83" name="Default Changelist" comment="调整市场监督模块柱形图样式">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/home/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/home.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/_helper.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/_helper.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/px.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/px.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +81,7 @@
       <workItem from="1623136184695" duration="20104000" />
       <workItem from="1623218067831" duration="23043000" />
       <workItem from="1623307403923" duration="18999000" />
-      <workItem from="1623392368236" duration="16284000" />
+      <workItem from="1623392368236" duration="17239000" />
     </task>
     <task id="LOCAL-00001" summary="匹配屏幕，背景图待更换">
       <created>1622831099675</created>
