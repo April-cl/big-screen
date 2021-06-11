@@ -54,6 +54,7 @@ export const MarketSupervision = () => {
       grid: {
         x: px(36),
         y: px(30),
+        x2: 0,
         y2: px(48)
       },
       series: [

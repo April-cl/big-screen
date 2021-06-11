@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9606c1f3-d13d-4e7d-8469-be950d673e83" name="Default Changelist" comment="完成地图模块">
-      <change afterPath="$PROJECT_DIR$/src/components/marketSupervision.tsx" afterDir="false" />
+    <list default="true" id="9606c1f3-d13d-4e7d-8469-be950d673e83" name="Default Changelist" comment="完成市场监督模块，发现有滚动条，待修复">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/home.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/marketSupervision.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/marketSupervision.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +81,7 @@
       <workItem from="1623136184695" duration="20104000" />
       <workItem from="1623218067831" duration="23043000" />
       <workItem from="1623307403923" duration="18999000" />
-      <workItem from="1623392368236" duration="14829000" />
+      <workItem from="1623392368236" duration="15138000" />
     </task>
     <task id="LOCAL-00001" summary="匹配屏幕，背景图待更换">
       <created>1622831099675</created>
@@ -127,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623260405596</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="完成市场监督模块，发现有滚动条，待修复">
+      <created>1623427322593</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1623427322593</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,7 +157,8 @@
     <MESSAGE value="代码重构 echarts配置项" />
     <MESSAGE value="修改tsconfig.json，去除// @ts-ignore" />
     <MESSAGE value="完成地图模块" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成地图模块" />
+    <MESSAGE value="完成市场监督模块，发现有滚动条，待修复" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成市场监督模块，发现有滚动条，待修复" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
