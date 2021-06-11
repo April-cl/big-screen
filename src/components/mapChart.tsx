@@ -91,6 +91,7 @@ export const MapChart = () => {
         }
       ]
     }))
+    // eslint-disable-next-line
   }, []);
   return (
     <div ref={divRef} className="mapChart"></div>
