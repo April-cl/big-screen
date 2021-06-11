@@ -6,6 +6,7 @@ import { WordCloud } from '../../components/wordCloud';
 import { MapChart } from '../../components/mapChart';
 import { ComprehensiveGovernance } from '../../components/comprehensiveGovernance';
 import { LawEnforcement } from '../../components/lawEnforcement';
+import { MarketSupervision } from '../../components/marketSupervision';
 
 export default function Home () {
   return (
@@ -29,10 +30,10 @@ export default function Home () {
           <ComprehensiveGovernance  />
           <h2 className='sectionName'><span>综治执法</span></h2>
           <LawEnforcement  />
+          <h2 className='sectionName'><span>市场监管</span></h2>
+          <MarketSupervision  />
         </section>
         <section className="section4">section4</section>
-        <section className="section5">section5</section>
-        <section className="section6">section6</section>
       </main>
     </div>
   )

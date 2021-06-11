@@ -21,7 +21,7 @@
     display: grid;
     grid-template:
       "box1 box2 box3" 637fr
-      "box4 box5 box6" 236fr
+      "box4 box4 box3" 236fr
       /426fr 648fr 452fr ;
     grid-gap: px(12);
     .sectionName {
@@ -271,12 +271,14 @@
         }
         .circleBorder {
           background: radial-gradient(rgb(6, 20, 46), rgb(11, 63, 91));
-          border-top-color: transparent;
           padding: px(16) px(10);
           &:before, &:after {
             display: none;
           }
         }
+      }
+      .marketSupervision {
+        height: px(180);
       }
     }
     > .section4 {
