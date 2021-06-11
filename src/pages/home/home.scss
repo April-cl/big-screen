@@ -66,6 +66,7 @@
       border: 1px solid $border-color;
       position: relative;
       box-shadow: 0 0 2px 0 rgb(13, 79, 148), inset 0 0 2px 0 rgb(15, 54, 105);
+      box-shadow: 0 0 12px rgba(100,200,255,.5) inset;
       &::before {
         content: '';
         position: absolute;
@@ -235,6 +236,45 @@
             flex-basis: 100%;
             color: rgb(88, 107, 134);
             padding-bottom: px(12);
+          }
+        }
+      }
+      .lawEnforcement {
+        .lawEnforcementContain {
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          .lawEnforcementItem {
+            background-color: rgb(8, 24, 51);
+            width: px(88);
+            height: px(88);
+            text-align: center;
+            display: flex;
+            flex-wrap: wrap;
+            align-content: center;
+            .itemValue {
+              flex-basis: 100%;
+              font-size: px(24);
+              color: rgb(254, 251, 252);
+            }
+            .itemTitle {
+              flex-basis: 100%;
+              color: rgb(88, 107, 134);
+            }
+          }
+        }
+        .lawEnforcementSum {
+          padding: px(24) 0;
+          font-size: px(24);
+          color: rgb(30, 143, 217);
+          text-align: center;
+        }
+        .circleBorder {
+          background: radial-gradient(rgb(6, 20, 46), rgb(11, 63, 91));
+          border-top-color: transparent;
+          padding: px(16) px(10);
+          &:before, &:after {
+            display: none;
           }
         }
       }

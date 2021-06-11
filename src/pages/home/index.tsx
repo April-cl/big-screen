@@ -5,6 +5,7 @@ import { HighFrequencyMatters } from '../../components/highFrequencyMatters';
 import { WordCloud } from '../../components/wordCloud';
 import { MapChart } from '../../components/mapChart';
 import { ComprehensiveGovernance } from '../../components/comprehensiveGovernance';
+import { LawEnforcement } from '../../components/lawEnforcement';
 
 export default function Home () {
   return (
@@ -26,6 +27,8 @@ export default function Home () {
         <section className="section3">
           <h2 className='sectionName'><span>综治工作</span></h2>
           <ComprehensiveGovernance  />
+          <h2 className='sectionName'><span>综治执法</span></h2>
+          <LawEnforcement  />
         </section>
         <section className="section4">section4</section>
         <section className="section5">section5</section>
