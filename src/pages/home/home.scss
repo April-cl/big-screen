@@ -374,23 +374,31 @@
       padding-left: px(40);
       .eventCoordination {
         height: px(150);
-        width: px(340);
-        border-collapse: collapse;
-        thead {
-          height: px(30);
-          color: rgb(36, 141, 216);
-          font-size: px(16);
-          background-color: rgb(21, 39, 61);
+        display: flex;
+        table {
+          display: table;
+          width: px(340);
+          border-collapse: collapse;
+          thead {
+            height: px(30);
+            color: rgb(36, 141, 216);
+            font-size: px(16);
+            background-color: rgb(21, 39, 61);
+          }
+          tbody {
+            color: rgb(88, 107, 134);
+            font-size: px(12);
+            tr {
+              border-bottom: 1px solid rgb(88, 107, 134);
+            }
+            td:nth-child(1), td:nth-child(3) {
+              text-align: center;
+            }
+          }
         }
-        tbody {
-          color: rgb(88, 107, 134);
-          font-size: px(12);
-          tr {
-            border-bottom: 1px solid rgb(88, 107, 134);
-          }
-          td:nth-child(1), td:nth-child(3) {
-            text-align: center;
-          }
+        .coordinationChart {
+          height: px(150);
+          width: px(270);
         }
       }
     }

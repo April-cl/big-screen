@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from 'react';
+import { CoordinationChart } from './coordinationChart';
 
 export const EventCoordination = () => {
   const divRef = useRef(null)
@@ -15,16 +16,19 @@ export const EventCoordination = () => {
     }
   }, [])
   return (
-    <table className="eventCoordination">
-      <thead>
-      <tr>
-        <th>序号</th>
-        <th>系统名称</th>
-        <th>协同事件数</th>
-      </tr>
-      </thead>
-      <tbody ref={divRef}>
-      </tbody>
-    </table>
+    <div className="eventCoordination">
+      <table className="eventCoordination">
+        <thead>
+        <tr>
+          <th>序号</th>
+          <th>系统名称</th>
+          <th>协同事件数</th>
+        </tr>
+        </thead>
+        <tbody ref={divRef}>
+        </tbody>
+      </table>
+      <CoordinationChart />
+    </div>
   );
 };
