@@ -20,8 +20,8 @@
     padding-left: px(40);
     display: grid;
     grid-template:
-      "box1 box2 box3" 606fr
-      "box4 box4 box3" 185fr
+      "box1 box2 box3"
+      "box4 box4 box3" 200fr
       /426fr 648fr 452fr ;
     grid-column-gap: px(12);
     .sectionName {
@@ -169,7 +169,7 @@
     > .section2 {
       grid-area: box2;
       .mapChart {
-        height: px(648);
+        height: px(624);
       }
     }
     > .section3 {
@@ -288,14 +288,86 @@
     }
     > .section4 {
       grid-area: box4;
-      background: lightcyan;
-    }
-    > .section5 {
-      grid-area: box5;
-    }
-    > .section6 {
-      grid-area: box6;
-      background: lightgray;
+      .eventGrade {
+        height: px(150);
+        display: flex;
+        align-items: flex-end;
+        width: px(426);
+        > div {
+          height: px(24);
+          position: relative;
+          .tooltip {
+            position: absolute;
+            top: -(px(120));
+            background-color: rgb(15, 31, 56);
+            width: px(120);
+            height: px(60);
+            line-height: px(30);
+            padding-left: px(12);
+            &:before {
+              content: '';
+              height: px(60);
+              position: absolute;
+              top: px(60);
+              left: 10px;
+            }
+            &:after {
+              content: '';
+              display: block;
+              width: 6px;
+              height: 6px;
+              border-radius: 50%;
+              position: absolute;
+              top: px(60);
+              left: 8px;
+            }
+            span:last-child {
+              position: absolute;
+              right: px(12);
+            }
+          }
+        }
+        .extraUrgent {
+          color: rgb(168, 61, 51);
+          background-color: rgb(168, 61, 51);
+          border-bottom-left-radius: px(12);
+          border-top-left-radius: px(12);
+          .tooltip {
+            &:before {
+              border: 1px solid rgb(168, 61, 51);
+            }
+            &:after {
+              background-color: rgb(168, 61, 51);
+            }
+          }
+        }
+        .urgent {
+          color: rgb(202, 137, 37);
+          background-color: rgb(202, 137, 37);
+          .tooltip {
+            &:before {
+              border: 1px solid rgb(202, 137, 37);
+            }
+            &:after {
+              background-color: rgb(202, 137, 37);
+            }
+          }
+        }
+        .general {
+          color: rgb(20, 78, 161);
+          background-color: rgb(20, 78, 161);
+          border-bottom-right-radius: px(12);
+          border-top-right-radius: px(12);
+          .tooltip {
+            &:before {
+              border: 1px solid rgb(20, 78, 161);
+            }
+            &:after {
+              background-color: rgb(20, 78, 161);
+            }
+          }
+        }
+      }
     }
   }
 }

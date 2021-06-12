@@ -89,7 +89,13 @@ export const MapChart = () => {
           },
           data: data,
         }
-      ]
+      ],
+      grid: {
+        x: px(30),
+        y: px(24),
+        x2: px(0),
+        y2: px(0)
+      }
     }))
     // eslint-disable-next-line
   }, []);

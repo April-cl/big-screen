@@ -8,6 +8,7 @@ import { ComprehensiveGovernance } from '../../components/comprehensiveGovernanc
 import { LawEnforcement } from '../../components/lawEnforcement';
 import { MarketSupervision } from '../../components/marketSupervision';
 import { ConvenienceServices } from '../../components/convenienceServices';
+import { EventGrade } from '../../components/eventGrade';
 
 export default function Home () {
   return (
@@ -28,15 +29,18 @@ export default function Home () {
         </section>
         <section className="section3">
           <h2 className='sectionName'><span>综治工作</span></h2>
-          <ComprehensiveGovernance  />
+          <ComprehensiveGovernance />
           <h2 className='sectionName'><span>综治执法</span></h2>
-          <LawEnforcement  />
+          <LawEnforcement />
           <h2 className='sectionName'><span>市场监管</span></h2>
-          <MarketSupervision  />
+          <MarketSupervision />
           <h2 className='sectionName'><span>市场监管</span></h2>
-          <ConvenienceServices  />
+          <ConvenienceServices />
         </section>
-        <section className="section4">section4</section>
+        <section className="section4">
+          <h2 className='sectionName'><span>事件等级</span></h2>
+          <EventGrade />
+        </section>
       </main>
     </div>
   )
