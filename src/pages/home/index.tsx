@@ -9,6 +9,7 @@ import { LawEnforcement } from '../../components/lawEnforcement';
 import { MarketSupervision } from '../../components/marketSupervision';
 import { ConvenienceServices } from '../../components/convenienceServices';
 import { EventGrade } from '../../components/eventGrade';
+import { EventCoordination } from '../../components/eventCoordination';
 
 export default function Home () {
   return (
@@ -40,6 +41,10 @@ export default function Home () {
         <section className="section4">
           <h2 className='sectionName'><span>事件等级</span></h2>
           <EventGrade />
+        </section>
+        <section className="section5">
+          <h2 className='sectionName'><span>事件协同</span></h2>
+          <EventCoordination />
         </section>
       </main>
     </div>
