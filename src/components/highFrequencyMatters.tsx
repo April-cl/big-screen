@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import * as echarts from 'echarts'
 import { px } from '../shared/px';
 import { createEchartsOptions } from '../shared/create-echarts-options';
+import { WordCloud } from './wordCloud';
 
 export const HighFrequencyMatters = () => {
   var divRef = useRef(null);
@@ -74,6 +75,9 @@ export const HighFrequencyMatters = () => {
     }));
   }, []);
   return (
-    <div ref={divRef} className={'highFrequencyMatters'}></div>
+    <div>
+      <div ref={divRef} className={'highFrequencyMatters'}></div>
+      <WordCloud />
+    </div>
   );
 };
