@@ -33,6 +33,20 @@
         font-size: px(24);
         border-bottom: px(3) dashed $border-color;
       }
+      button {
+        position: absolute;
+        right: 0;
+        font-size: px(16);
+        padding: 4px 12px;
+        text-align: center;
+        background-color: rgb(26, 139, 230);
+        border-radius: 10px;
+        border: none;
+        a {
+          color: rgb(254, 251, 252);
+          text-decoration: none;
+        }
+      }
       &::before, &::after {
         position: absolute;
         bottom: 0;

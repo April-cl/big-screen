@@ -1,5 +1,6 @@
 import React from 'react'
 import './home.scss'
+import {Link} from 'react-router-dom'
 import { RealTimeDynamics } from '../../components/real-timeDynamics';
 import { HighFrequencyMatters } from '../../components/highFrequencyMatters';
 import { MapChart } from '../../components/mapChart';
@@ -27,13 +28,13 @@ export default function Home () {
           <MapChart />
         </section>
         <section className="section3">
-          <h2 className='sectionName'><span>综治工作</span></h2>
+          <h2 className='sectionName'><span>综治工作</span><button><Link to='../temporary'>进入</Link></button></h2>
           <ComprehensiveGovernance />
-          <h2 className='sectionName'><span>综治执法</span></h2>
+          <h2 className='sectionName'><span>综治执法</span><button><Link to='../temporary'>进入</Link></button></h2>
           <LawEnforcement />
-          <h2 className='sectionName'><span>市场监管</span></h2>
+          <h2 className='sectionName'><span>市场监管</span><button><Link to='../temporary'>进入</Link></button></h2>
           <MarketSupervision />
-          <h2 className='sectionName'><span>市场监管</span></h2>
+          <h2 className='sectionName'><span>市场监管</span><button><Link to='../temporary'>进入</Link></button></h2>
           <ConvenienceServices />
         </section>
         <section className="section4">

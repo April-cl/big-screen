@@ -1,0 +1,23 @@
+@import "../../shared/helper";
+
+.temporary {
+  padding-top: px(48);
+  text-align: center;
+  h1 {
+    width: 100%;
+    font-size: px(48);
+    color: rgb(40, 175, 255);
+  }
+  button {
+    font-size: px(16);
+    padding: 4px 12px;
+    margin-top: px(48);
+    background-color: rgb(26, 139, 230);
+    border-radius: 10px;
+    border: none;
+    a {
+      color: rgb(254, 251, 252);
+      text-decoration: none;
+    }
+  }
+}
