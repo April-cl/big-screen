@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9606c1f3-d13d-4e7d-8469-be950d673e83" name="Default Changelist" comment="调整市场监督模块柱形图样式">
-      <change afterPath="$PROJECT_DIR$/src/pages/temporary/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/temporary/temporary.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/home.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routers/base.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routers/base.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/comprehensiveGovernance.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/comprehensiveGovernance.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +83,8 @@
       <workItem from="1623307403923" duration="18999000" />
       <workItem from="1623392368236" duration="21351000" />
       <workItem from="1623465030599" duration="21005000" />
-      <workItem from="1623594181644" duration="6875000" />
+      <workItem from="1623594181644" duration="8959000" />
+      <workItem from="1623657505370" duration="4641000" />
     </task>
     <task id="LOCAL-00001" summary="匹配屏幕，背景图待更换">
       <created>1622831099675</created>
