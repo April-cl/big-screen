@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9606c1f3-d13d-4e7d-8469-be950d673e83" name="Default Changelist" comment="调整市场监督模块柱形图样式">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/comprehensiveGovernance.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/comprehensiveGovernance.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/eventGrade.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/eventGrade.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/home.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +59,8 @@
       <recent name="F:\2020版前端体系课\big-screen\src\pages" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\2020版前端体系课\big-screen\src\pages\home" />
+      <recent name="F:\2020版前端体系课\big-screen\src\pages\home\scss" />
       <recent name="F:\2020版前端体系课\big-screen\src\images" />
     </key>
   </component>
@@ -84,7 +87,7 @@
       <workItem from="1623392368236" duration="21351000" />
       <workItem from="1623465030599" duration="21005000" />
       <workItem from="1623594181644" duration="8959000" />
-      <workItem from="1623657505370" duration="4641000" />
+      <workItem from="1623657505370" duration="9895000" />
     </task>
     <task id="LOCAL-00001" summary="匹配屏幕，背景图待更换">
       <created>1622831099675</created>

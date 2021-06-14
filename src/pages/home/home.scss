@@ -310,6 +310,11 @@
         > div {
           height: px(24);
           position: relative;
+          cursor: pointer;
+          &:hover {
+            z-index: 999;
+            transform: scale(1.1);
+          }
           .tooltip {
             position: absolute;
             top: -(px(120));

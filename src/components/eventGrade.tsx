@@ -1,27 +1,45 @@
+
 import React, { useEffect, useRef } from 'react';
 
 export const EventGrade = () => {
   const divRef = useRef(null)
-  let data = {
-    proportions: ['10%', '30%', '60%'],
-    numbers: [135, 254, 739],
-    title: ['特急', '紧急', '普通']
-  }
+  const data = [
+    {
+      proportions: '10%',
+      numbers: 135,
+      title: '特急',
+      className: 'extraUrgent'
+    },
+    {
+      proportions: '30%',
+      numbers: 254,
+      title: '紧急',
+      className: 'urgent'
+    },
+    {
+      proportions: '60%',
+      numbers: 739,
+      title: '普通',
+      className: 'general'
+    },
+  ]
   useEffect(() => {
-    const children = [... divRef.current.children]
-    children.map((value, index) => {
-      value.style.flexBasis = data.proportions[index]
-      let tooltip = document.createElement('div')
-      tooltip.className = 'tooltip'
-      tooltip.innerHTML = `<span>特急</span><br/><span>${data.numbers[index]}</span><span>${data.proportions[index]}</span>`
-      value.appendChild(tooltip)
+    const times = data.length
+    let divArray= []
+    for (let i = 0; i < times; i++) {
+      let div = document.createElement('div')
+      div.className = data[i].className
+      div.style.flexBasis = data[i].proportions
+      div.innerHTML = `<div class="tooltip"><span>${data[i].title}</span><br/><span>${data[i].numbers}</span><span>${data[i].proportions}</span></div>
+`
+      divArray.push(div)
+    }
+    divArray.map((value) => {
+      divRef.current.appendChild(value)
     })
-  }, [])
+  }, [data])
   return (
       <div ref={divRef} className="eventGrade">
-        <div className="extraUrgent"><div className="tooltip"><span>特急</span><br/></div></div>
-        <div className="urgent"><div className="tooltip"><span>紧急</span><br/></div></div>
-        <div className="general"><div className="tooltip"><span>普通</span><br/></div></div>
       </div>
   );
 };
