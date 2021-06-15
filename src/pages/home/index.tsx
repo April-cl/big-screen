@@ -34,7 +34,7 @@ export default function Home () {
           <LawEnforcement />
           <h2 className='sectionName'><span>市场监管</span><button><Link to='../temporary'>进入</Link></button></h2>
           <MarketSupervision />
-          <h2 className='sectionName'><span>市场监管</span><button><Link to='../temporary'>进入</Link></button></h2>
+          <h2 className='sectionName'><span>便民服务</span><button><Link to='../temporary'>进入</Link></button></h2>
           <ConvenienceServices />
         </section>
         <section className="section4">

@@ -66,6 +66,11 @@ export const MarketSupervision = () => {
         {type: 'bar'},
         {type: 'bar'},
         {type: 'bar'}
+      ],
+      dataZoom: [
+        {
+          type: 'inside'
+        }
       ]
     }));
   }, []);

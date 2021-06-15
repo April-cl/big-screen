@@ -71,7 +71,12 @@ export const HighFrequencyMatters = () => {
           color: "rgb(47, 194, 182)"
         },
         symbol: "none"
-      }]
+      }],
+      dataZoom: [
+        {
+          type: 'inside'
+        }
+      ]
     }));
   }, []);
   return (
