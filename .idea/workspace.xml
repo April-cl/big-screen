@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9606c1f3-d13d-4e7d-8469-be950d673e83" name="Default Changelist" comment="重构综合执法组件">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/eventCoordination.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/eventCoordination.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
