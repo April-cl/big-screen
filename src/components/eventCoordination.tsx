@@ -3,15 +3,32 @@ import { CoordinationChart } from './coordinationChart';
 
 export const EventCoordination = () => {
   const divRef = useRef(null)
-  let data = {
-    name: ['平安建设信息系统', '统一政务咨询投诉举报平台', '某某市智慧城管系统', '某某区智慧河道云平台', '某某市民情双访数据平台'],
-    numbers: [78322, 58829, 18319, 38123, 8732]
-  }
+  let data = [
+    {
+      name: '平安建设信息系统',
+      numbers: 7832
+    },
+    {
+      name: '统一政务咨询投诉举报平台',
+      numbers: 58829
+    },
+    {
+      name: '某某市智慧城管系统',
+      numbers: 18319
+    },
+    {
+      name: '某某区智慧河道云平台',
+      numbers: 38123
+    },
+    {
+      name: '某某市民情双访数据平台',
+      numbers: 8732
+    },
+  ]
   useEffect(() => {
-    const times = data.numbers.length
-    for (let i = 0; i < times; i++) {
+    for (let i = 0; i < data.length; i++) {
       let tr = document.createElement('tr')
-      tr.innerHTML = `<td>${i+1}</td><td>${data.name[i]}</td><td>${data.numbers[i]}</td>`
+      tr.innerHTML = `<td>${i+1}</td><td>${data[i].name}</td><td>${data[i].numbers}</td>`
       divRef.current.appendChild(tr)
     }
     // eslint-disable-next-line

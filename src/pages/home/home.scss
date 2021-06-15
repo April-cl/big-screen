@@ -408,7 +408,11 @@
             color: rgb(88, 107, 134);
             font-size: px(12);
             tr {
+              cursor: pointer;
               border-bottom: 1px solid rgb(88, 107, 134);
+              &:hover {
+                color: rgb(36, 141, 216);
+              }
             }
             td:nth-child(1), td:nth-child(3) {
               text-align: center;
