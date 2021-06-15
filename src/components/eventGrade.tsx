@@ -36,8 +36,10 @@ export const EventGrade = () => {
     }
     divArray.map((value) => {
       divRef.current.appendChild(value)
+      return value
     })
-  }, [data])
+    // eslint-disable-next-line
+  }, [])
   return (
       <div ref={divRef} className="eventGrade">
       </div>

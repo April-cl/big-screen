@@ -74,6 +74,7 @@ export const ConvenienceServices = () => {
         }
       ]
     }));
+    // eslint-disable-next-line
   }, []);
   return (
     <div ref={divRef} className="convenienceServices"></div>

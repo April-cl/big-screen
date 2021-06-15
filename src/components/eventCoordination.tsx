@@ -14,6 +14,7 @@ export const EventCoordination = () => {
       tr.innerHTML = `<td>${i+1}</td><td>${data.name[i]}</td><td>${data.numbers[i]}</td>`
       divRef.current.appendChild(tr)
     }
+    // eslint-disable-next-line
   }, [])
   return (
     <div className="eventCoordination">

@@ -53,6 +53,7 @@ export const ComprehensiveGovernance = () => {
         </div>`
       divRef.current.appendChild(div)
     }
+    // eslint-disable-next-line
   }, [])
   return (
     <div ref={divRef} className='comprehensiveGovernance'>
