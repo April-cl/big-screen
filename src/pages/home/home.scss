@@ -156,11 +156,11 @@
         display: flex;
         justify-content: space-between;
         .circleBorder {
-          width: px(92);
-          height: px(92);
+          width: px(100);
+          height: px(100);
           &::before, &::after {
-            width: px(106);
-            height: px(106);
+            width: px(112);
+            height: px(112);
           }
         }
         .eventStatisticsNumber {
