@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9606c1f3-d13d-4e7d-8469-be950d673e83" name="Default Changelist" comment="柱形图添加鼠标滚轮缩放功能">
+    <list default="true" id="9606c1f3-d13d-4e7d-8469-be950d673e83" name="Default Changelist" comment="解决React Hook useEffect has a missing dependency警告">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/comprehensiveGovernance.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/comprehensiveGovernance.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/convenienceServices.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/convenienceServices.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/eventCoordination.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/eventCoordination.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/eventGrade.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/eventGrade.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/real-timeDynamics.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/real-timeDynamics.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/lawEnforcement.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/lawEnforcement.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +87,7 @@
       <workItem from="1623465030599" duration="21005000" />
       <workItem from="1623594181644" duration="8959000" />
       <workItem from="1623657505370" duration="10012000" />
-      <workItem from="1623735635183" duration="6403000" />
+      <workItem from="1623735635183" duration="7111000" />
     </task>
     <task id="LOCAL-00001" summary="匹配屏幕，背景图待更换">
       <created>1622831099675</created>
@@ -157,7 +152,21 @@
       <option name="project" value="LOCAL" />
       <updated>1623737014793</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="重构实时动态组件">
+      <created>1623745397152</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1623745397152</updated>
+    </task>
+    <task id="LOCAL-00011" summary="解决React Hook useEffect has a missing dependency警告">
+      <created>1623745441233</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1623745441233</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,7 +194,9 @@
     <MESSAGE value="完成市场监督模块，发现有滚动条，待修复" />
     <MESSAGE value="调整市场监督模块柱形图样式" />
     <MESSAGE value="柱形图添加鼠标滚轮缩放功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="柱形图添加鼠标滚轮缩放功能" />
+    <MESSAGE value="重构实时动态组件" />
+    <MESSAGE value="解决React Hook useEffect has a missing dependency警告" />
+    <option name="LAST_COMMIT_MESSAGE" value="解决React Hook useEffect has a missing dependency警告" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
