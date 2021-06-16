@@ -1,18 +1,33 @@
-import React, { useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 
 export const RealTimeDynamics = () => {
   const divRef = useRef(null)
-  const data = {
+  // const data = {
+  //   todayEventNumber: 1326,
+  //   wholeEventNumber: 1562541,
+  //   completionRate: '89.5',
+  //   averageTimeDuration: 120
+  // }
+  const [data, setData] = useState({
     todayEventNumber: 1326,
     wholeEventNumber: 1562541,
     completionRate: '89.5',
     averageTimeDuration: 120
-  }
-  let a = 6 - data.todayEventNumber.toString().length
+  })
   let todayString = data.todayEventNumber.toString()
+  let a = 6 - todayString.length
   for (let i = 0; i < a; i++) {
     todayString = '0' + todayString
   }
+  useEffect(() => {
+    let timeId = setInterval(() => {
+      setData({
+        ...data,
+        todayEventNumber: data.todayEventNumber+1
+      })
+    }, 1000)
+    return () => {clearInterval(timeId)}
+  }, [data])
   return (
     <div ref={divRef}>
       <h3 className='componentName'>今日事件数</h3>
