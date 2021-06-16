@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9606c1f3-d13d-4e7d-8469-be950d673e83" name="Default Changelist" comment="事件协同组件添加鼠标悬浮效果">
-      <change beforePath="$PROJECT_DIR$/src/components/marketSupervision.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/marketSupervision.tsx" afterDir="false" />
+    <list default="true" id="9606c1f3-d13d-4e7d-8469-be950d673e83" name="Default Changelist" comment="模拟动态更新">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
