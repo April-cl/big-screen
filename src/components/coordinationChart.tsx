@@ -17,7 +17,7 @@ export const CoordinationChart = () => {
         top: '50%',
         textStyle: {
           color: 'rgb(36, 141, 216)',
-          fontSize: px(12),
+          fontSize: px(8),
           align: 'center'
         }
       },
@@ -29,13 +29,13 @@ export const CoordinationChart = () => {
           text: '837019',
           textAlign: 'center',
           fill: 'rgb(36, 141, 216)',
-          fontSize: px(14),
+          fontSize: px(10),
         }
       },
       series: [
         {
           type: 'pie',
-          radius: [40, 52],
+          radius: [30, 42],
           data: [
             {value: 23.4, name: '综合执法'},
             {value: 23.4, name: '综治工作'},
@@ -44,7 +44,7 @@ export const CoordinationChart = () => {
           ],
           label: {
             color: 'rgba(255, 255, 255, 0.3)',
-            fontSize: px(12),
+            fontSize: px(10),
             align: 'right',
             formatter: '{b}\n{d}%'
           },
