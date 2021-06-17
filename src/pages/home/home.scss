@@ -30,14 +30,16 @@
       color: $font-title-color;
       span {
         font-weight: bold;
-        font-size: px(24);
+        font-size: px(20);
         border-bottom: px(3) dashed $border-color;
       }
       button {
         position: absolute;
         right: 0;
-        font-size: px(16);
-        padding: 4px 12px;
+        top:50%;
+        transform:translateY(-50%);
+        font-size: px(12);
+        padding: 2px 8px;
         text-align: center;
         background-color: rgb(26, 139, 230);
         border-radius: 10px;
@@ -156,21 +158,21 @@
         display: flex;
         justify-content: space-between;
         .circleBorder {
-          width: px(100);
-          height: px(100);
+          width: px(96);
+          height: px(96);
           &::before, &::after {
-            width: px(112);
-            height: px(112);
+            width: px(108);
+            height: px(108);
           }
         }
         .eventStatisticsNumber {
           color: rgb(254, 251, 252);
-          font-size: px(20);
+          font-size: px(16);
           font-weight: bold;
         }
         .eventStatisticsTitle {
           color: rgb(30, 143, 253);
-          font-size: px(16);
+          font-size: px(14);
         }
       }
       .highFrequencyMatters {
@@ -220,7 +222,7 @@
             line-height: px(32);
           }
           .itemValue, .itemProportion {
-            font-size: px(20);
+            font-size: px(18);
             font-weight: bold;
             color: rgb(30, 143, 217);
             padding-top: px(6);
@@ -270,7 +272,7 @@
             align-content: center;
             .itemValue {
               flex-basis: 100%;
-              font-size: px(24);
+              font-size: px(20);
               color: rgb(254, 251, 252);
             }
             .itemTitle {
@@ -281,7 +283,7 @@
         }
         .lawEnforcementSum {
           padding: px(24) 0;
-          font-size: px(24);
+          font-size: px(20);
           color: rgb(30, 143, 217);
           text-align: center;
         }

@@ -5,10 +5,11 @@
   padding: 0;
   font-weight: normal;
 }
+::-webkit-scrollbar {display:none}
 body {
   margin: 0;
   font-family: $font-hei;
-  background: radial-gradient(ellipse closest-side, rgb(11, 39, 69), rgb(8, 22, 49))
+  background: radial-gradient(ellipse closest-side, rgb(11, 39, 69), rgb(8, 22, 49));
 }
 #root {
   margin: 0 auto;

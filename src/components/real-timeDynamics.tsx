@@ -2,12 +2,6 @@ import React, { useEffect, useRef, useState } from 'react';
 
 export const RealTimeDynamics = () => {
   const divRef = useRef(null)
-  // const data = {
-  //   todayEventNumber: 1326,
-  //   wholeEventNumber: 1562541,
-  //   completionRate: '89.5',
-  //   averageTimeDuration: 120
-  // }
   const [data, setData] = useState({
     todayEventNumber: 1326,
     wholeEventNumber: 1562541,
@@ -30,7 +24,7 @@ export const RealTimeDynamics = () => {
   }, [data])
   return (
     <div ref={divRef}>
-      <h3 className='componentName'>今日事件数</h3>
+      <h4 className='componentName'>今日事件数</h4>
       <div className='eventNumber'>
         <span className="rectangleBorder">{todayString.slice(0,1)}</span>
         <span className="rectangleBorder">{todayString.slice(1,2)}</span>
