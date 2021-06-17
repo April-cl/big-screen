@@ -394,12 +394,23 @@
       grid-area: box5;
       padding-left: px(40);
       .eventCoordination {
-        height: px(150);
         display: flex;
         table {
           display: table;
           width: px(340);
           border-collapse: collapse;
+          thead, tbody tr {
+            display: table;
+            width: 100%;
+          }
+          thead th, tbody td {
+            &:first-child {
+              width: px(50);
+            }
+            &:last-child {
+              width: px(100);
+            }
+          }
           thead {
             height: px(30);
             color: rgb(36, 141, 216);
@@ -407,9 +418,13 @@
             background-color: rgb(21, 39, 61);
           }
           tbody {
+            display: block;
+            overflow-y: scroll;
+            height: px(100);
             color: rgb(88, 107, 134);
             font-size: px(12);
             tr {
+              height: px(25);
               cursor: pointer;
               border-bottom: 1px solid rgb(88, 107, 134);
               &:hover {
